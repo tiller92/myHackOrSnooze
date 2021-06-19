@@ -1,0 +1,100 @@
+    /* Lists of stories */
+    
+    .stories-list {
+        margin: 20px 5px;
+    }
+    
+    .stories-list>li {
+        color: gray;
+        font-size: 0.8rem;
+        margin: 10px 0;
+    }
+    
+    .list-item {
+        margin-bottom: 2rem;
+    }
+    
+    #stories-loading-msg {
+        font-weight: bold;
+        font-size: 150%;
+        margin: 20px 30px;
+    }
+    /* Individual stories */
+    
+    .story-link {
+        color: black;
+        font-size: 0.85rem;
+        font-weight: normal;
+        margin: 18px 0;
+    }
+    
+    .story-link:hover {
+        text-decoration: none;
+    }
+    
+    .story-author {
+        margin-left: 2em;
+    }
+    
+    .story-user {
+        display: block;
+    }
+    
+    .fav {
+        display: inline-block;
+        height: 1rem;
+        width: 1rem;
+        border: none;
+    }
+    
+    .star {
+        display: inline-block;
+        color: rgb(152, 136, 11);
+        background-color: transparent;
+        border: none;
+    }
+    
+    .unstar {
+        display: inline-block;
+        color: rgb(242, 67, 3);
+        background-color: transparent;
+        border: none;
+    }
+    
+    .favsBtn {
+        background-color: #ff6600;
+        font-family: Arimo, sans-serif;
+        position: fixed;
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        left: 80vw;
+        top: 80vh;
+    }
+    
+    .favsBtn:hover {
+        cursor: pointer;
+        transform: scale(1.25);
+    }
+    
+    .remove {
+        display: inline-block;
+        background-color: transparent;
+        border: none;
+        margin-left: 2rem;
+    }
+    
+    .remove:hover {
+        cursor: pointer;
+        background-color: rgba(232, 28, 5, 0.845);
+    }
+    
+    .star:hover {
+        cursor: pointer;
+        background-color: rgba(34, 222, 115, 0.791);
+    }
+    
+    .unstar:hover {
+        cursor: pointer;
+        background-color: rgba(232, 28, 5, 0.482);
+    }
